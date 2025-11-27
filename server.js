@@ -17,7 +17,7 @@ app.post('/send-email', async (req, res) => {
   try {
     const data = await resend.emails.send({
       // Use 'onboarding@resend.dev' for testing if you haven't verified a domain yet
-      from: 'Kay Cribs Website <onboarding@resend.dev>', 
+      from: 'onboarding@resend.dev', 
       to: ['domurunbeeyah@gmail.com'], // Replace with where you want to RECEIVE the leads
       subject: `New Inquiry from ${name}: ${service}`,
       html: `
