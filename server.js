@@ -17,8 +17,8 @@ app.post('/send-email', async (req, res) => {
   try {
     const data = await resend.emails.send({
       // Use 'onboarding@resend.dev' for testing if you haven't verified a domain yet
-      from: 'Kay Cribs Website <onboarding@resend.dev>', 
-      to: ['kaycribs@gmail.com'], // Replace with where you want to RECEIVE the leads
+      from: 'Kay Cribs Website <https://kaycribs.vercel.app/#>', 
+      to: ['domurunbeeyah@gmail.com'], // Replace with where you want to RECEIVE the leads
       subject: `New Inquiry from ${name}: ${service}`,
       html: `
         <h2>New Website Inquiry</h2>
