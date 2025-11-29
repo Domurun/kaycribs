@@ -23,6 +23,5 @@
     "express": "^5.1.0",
     "resend": "^6.5.2"
   },
-  "devDependencies": {},
   "description": ""
 }
